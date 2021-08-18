@@ -13,6 +13,15 @@ eventListeners();
 function eventListeners() {
     form.addEventListener("submit", addTodo);
     document.addEventListener("DOMContentLoaded", loadAllTodosToUI);
+    secondCardBody.addEventListener("click", deleteTodo);
+}
+
+// Delete Todo
+function deleteTodo(e) {
+    if (e.target.className === "fa fa-remove") {
+        e.target.parentElement.parentElement.remove();
+        showAlert("success","Todo başarıyla silindi");
+    }
 }
 
 // Get Todos from Local Storage
@@ -24,6 +33,7 @@ function loadAllTodosToUI() {
     });
 }
 
+// Check input
 function addTodo(e) {
     const newTodo = todoInput.value.trim();
 
