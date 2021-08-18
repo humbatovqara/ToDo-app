@@ -17,9 +17,30 @@ function eventListeners() {
 function addTodo(e) {
     const newTodo = todoInput.value.trim();
 
-    addTodoToUI(newTodo);
+    if (newTodo === "") {
+        showAlert("danger","Lütfen bir todo girin...");
+    }
+    else {
+        addTodoToUI(newTodo);
+        showAlert("success","Todo başarıyla eklendi");
+    }
 
     e.preventDefault();
+}
+
+// Alert message
+function showAlert(type, message) {
+    const alert = document.createElement("div");
+
+    alert.className = `alert alert-${type}`;
+    alert.textContent = message;
+
+    firstCardBody.appendChild(alert);
+
+    // setTimeOut
+    window.setTimeout(function() {
+        alert.remove();
+    },2000);
 }
 
 // String dəyəri list item olaraq səhifəyə əlavə edəcək
