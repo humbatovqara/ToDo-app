@@ -12,7 +12,7 @@ In this program, you can memorize your tasks. Be careful not to enter a task a s
 Here is a working live demo : https://humbatovqara.github.io/ToDo-app/
 
 ## Illustrations
-![GIF ToDo App](https://user-images.githubusercontent.com/60696274/139527932-477cd67c-ce17-4819-b003-8479ee8b410f.gif)
+![GIF ToDo App](https://user-images.githubusercontent.com/60696274/139528306-b68850f2-1e65-4dd2-a8ab-8872a7068d40.gif)
 <br />
 
 ## Technologies
