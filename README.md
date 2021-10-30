@@ -12,7 +12,7 @@ In this program, you can memorize your tasks. Be careful not to enter a task a s
 Here is a working live demo : https://humbatovqara.github.io/ToDo-app/
 
 ## Illustrations
-![GIF ToDo App](https://user-images.githubusercontent.com/60696274/139528306-b68850f2-1e65-4dd2-a8ab-8872a7068d40.gif)
+![GIF ToDo App](https://user-images.githubusercontent.com/60696274/139528470-d8250f5d-5dcf-4b29-bf08-91806b4519a6.gif)
 <br />
 
 ## Technologies
@@ -20,7 +20,6 @@ Here is a working live demo : https://humbatovqara.github.io/ToDo-app/
 - Bootstrap 4
 - JavaScript (Vanilla)
   - Local Storage
-<br />
 
 ## Source
 Inspired lessons: 
